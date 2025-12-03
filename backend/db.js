@@ -1,7 +1,7 @@
 // db.js
 const mongoose = require('mongoose');
 
-const mongoURI = "mongodb://localhost:27017/inotebook"
+const mongoURI = "mongodb+srv://varunkumar89235_db_user:Varun%400504@cluster0.sshoutx.mongodb.net/?appName=Cluster0";
 async function connectToMongo() {
     try {
         await mongoose.connect(mongoURI, 
